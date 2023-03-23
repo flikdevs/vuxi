@@ -1,13 +1,14 @@
 {
-  "name": "@alisherdev/vuxi",
+  "name": "@flikdevs/vuxi",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "CLI for Vue.js",
+  "main": "",
+  "bin": {
+    "vuxi": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "./bin/index.js",
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
